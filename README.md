@@ -26,7 +26,7 @@ Simplified algorithm, no tuning to hardware or causal masking
 
     Output Accumulation: Computes weighted sum with V, correcting for changing statistics
 
-2. Main Forward Kernel (_attn_fwd, lines 179-271)
+2. Main Forward Kernel (_attn_fwd)
 Orchestrates the computation:
 
     Initializes accumulators (acc, l_i, m_i)
